@@ -3,128 +3,100 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SON GECE — Destek / Support</title>
+<title>EZGİ — Destek / Support</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: linear-gradient(180deg, #171043 0%, #3d1f72 55%, #7a3478 100%);
-    color: #e8ecf4; line-height: 1.65; min-height: 100vh;
-  }
-  .kap { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
-  header { text-align: center; margin-bottom: 40px; }
-  h1 {
-    font-size: 40px; letter-spacing: 1px; margin: 0 0 6px;
-    color: #ffdf80; text-shadow: 0 3px 0 rgba(10,6,26,.65), 0 0 26px rgba(255,223,128,.25);
-  }
-  .alt { color: #c9d2ea; font-size: 17px; margin: 0; }
-  h2 { color: #7ef0ff; font-size: 21px; margin: 34px 0 10px; }
-  h3 { color: #ffdf80; font-size: 17px; margin: 22px 0 6px; }
-  p, li { color: #dfe5f2; font-size: 16px; }
-  .kart {
-    background: rgba(16, 20, 40, .72); border: 1px solid rgba(160, 180, 255, .18);
-    border-radius: 18px; padding: 20px 22px; margin: 18px 0;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .28);
-  }
-  a { color: #7ef0ff; text-decoration: none; border-bottom: 1px solid rgba(126, 240, 255, .35); }
-  a:hover { border-bottom-color: #7ef0ff; }
-  ul { padding-left: 20px; }
-  code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 6px; font-size: 14px; }
-  .dil { text-align: center; margin-bottom: 26px; font-size: 14px; letter-spacing: .5px; color: #aab4d0; }
-  footer { text-align: center; color: #98a2bd; font-size: 14px; margin-top: 46px; }
-  hr { border: none; border-top: 1px solid rgba(160,180,255,.16); margin: 46px 0; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:linear-gradient(180deg,#0b0d12 0%,#171233 55%,#0e2b33 100%); color:#eef1f7; line-height:1.65; min-height:100vh; }
+  .kap { max-width:760px; margin:0 auto; padding:48px 22px 90px; }
+  header { text-align:center; margin-bottom:38px; }
+  .logo { width:76px; height:76px; border-radius:20px; margin:0 auto 14px;
+          background:linear-gradient(135deg,#7c5cff,#22d3ee); display:grid; place-items:center;
+          box-shadow:0 14px 40px rgba(124,92,255,.35); font-size:34px; }
+  h1 { font-size:34px; margin:0 0 4px; letter-spacing:-.5px; }
+  .sub { color:#98a2b8; font-size:15px; }
+  h2 { font-size:19px; margin:34px 0 10px; color:#cdd5e6; }
+  .kart { background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.09); border-radius:16px; padding:18px 20px; margin-bottom:14px; }
+  .kart h3 { margin:0 0 6px; font-size:15.5px; color:#fff; }
+  .kart p, .kart li { color:#aeb7c9; font-size:14px; margin:4px 0; }
+  code { background:rgba(124,92,255,.18); padding:1px 7px; border-radius:6px; font-size:13px; color:#d9cfff; }
+  a { color:#7fd8ee; }
+  .not { border-left:3px solid #7c5cff; }
+  footer { margin-top:44px; color:#6b7488; font-size:12.5px; text-align:center; }
 </style>
 </head>
 <body>
 <div class="kap">
-
   <header>
-    <h1>SON GECE</h1>
-    <p class="alt">Destek &amp; Yardım</p>
+    <div class="logo">🎵</div>
+    <h1>EZGİ Destek</h1>
+    <div class="sub">Yerel müzik çalar · çevrimdışı · reklamsız · hesapsız &nbsp;|&nbsp; <span style="opacity:.8">Support (EN below)</span></div>
   </header>
 
-  <div class="kart">
-    <h3>İletişim</h3>
-    <p>Her türlü soru, hata bildirimi ve öneri için bize yaz:</p>
-    <p><strong>E-posta:</strong> <a href="mailto:destek@songece.app">destek@songece.app</a></p>
-    <p style="color:#aab4d0;font-size:14px;margin-bottom:0">
-      Genellikle 1–2 iş günü içinde yanıt veriyoruz. Hata bildirirken telefon modelini
-      ve oyun sürümünü (menünün en altında yazar, örn. <code>v1.0.0</code>) eklersen
-      çok daha hızlı çözebiliriz.
-    </p>
-  </div>
-
-  <h2>Sık Sorulan Sorular</h2>
-
-  <h3>Kayıtlarım nerede tutuluyor?</h3>
-  <p>Rekorlar, gümüş ve rozetler yalnızca <strong>kendi cihazında</strong> saklanır.
-  Sunucuya hiçbir şey gönderilmez. Uygulamayı silersen kayıtlar da silinir.</p>
-
-  <h3>Oyunu çevrimdışı oynayabilir miyim?</h3>
-  <p>Evet. Oyun tamamen çevrimdışı çalışır, internet izni istemez.</p>
-
-  <h3>İlerlemem sıfırlandı, geri gelir mi?</h3>
-  <p>Cihaz değiştirdiysen veya uygulamayı silip yeniden yüklediysen eski kayıt geri
-  getirilemez (veriler sunucuda tutulmuyor). Yeni sürümlerde aniden sıfırlama olduysa
-  lütfen bize yaz — bu bir hata olabilir.</p>
-
-  <h3>Nasıl daha uzağa giderim?</h3>
-  <ul>
-    <li>Kristalleri toplamak için kalabalığın içinden geçmek yerine çevresinden dolaş.</li>
-    <li>İlk yükseltmelerde tek bir silaha odaklan; seviye 5'e ulaşınca evrimleşir.</li>
-    <li>Kalıcı güçler ölümsüzdür: dükkândan "Can" ve "Hasar" almak turu uzatır.</li>
-    <li>Boss gelmeden önce ekranın üstünde "GELİYOR" uyarısı çıkar; alanı açmayı dene.</li>
-  </ul>
-
-  <h3>Beyaz tema nasıl açılır?</h3>
-  <p>Menü → <strong>AYAR</strong> → <strong>Koyu Tema</strong> anahtarını kapat.</p>
-
-  <h3>Oyun çok zor/gürültülü/büyük mü?</h3>
-  <p>AYAR ekranından ses seviyesini, titreşimi, oto seçimi ve temayı değiştirebilirsin.</p>
-
-  <h2>Gizlilik</h2>
-  <p>Hangi verilerin toplandığını (kısaca: hiçbiri) görmek için
-  <a href="./privacy.html">Gizlilik Politikası</a> sayfasına bakabilirsin.</p>
-
-  <hr>
-
-  <div class="dil">— English —</div>
-
-  <header>
-    <h2 style="margin-top:0">SON GECE — Support</h2>
-  </header>
+  <h2>Sık sorulanlar</h2>
 
   <div class="kart">
-    <h3>Contact</h3>
-    <p>For questions, bug reports and suggestions:</p>
-    <p><strong>Email:</strong> <a href="mailto:destek@songece.app">destek@songece.app</a></p>
-    <p style="color:#aab4d0;font-size:14px;margin-bottom:0">
-      We usually reply within 1–2 business days. Including your device model and the
-      game version (shown at the bottom of the main menu, e.g. <code>v1.0.0</code>)
-      helps us fix issues faster.
-    </p>
+    <h3>Müziğimi nasıl eklerim?</h3>
+    <ul>
+      <li><b>Dosyalardan:</b> Kütüphane ekranındaki <code>+</code> düğmesiyle MP3, M4A/AAC, FLAC, WAV, OGG, Opus, AIFF seç.</li>
+      <li><b>Bilgisayardan:</b> macOS Finder (veya Windows/iTunes “Dosya Paylaşımı”) ile EZGİ’nin Belgeler klasörüne dosya bırak; uygulama otomatik görür.</li>
+      <li><b>Bağlantıdan:</b> İndir sekmesine adres yapıştır → içerik türü doğrulanır → kuyruğa girer → bitince kütüphaneye eklenir.</li>
+    </ul>
   </div>
 
-  <h3>Where is my progress stored?</h3>
-  <p>High scores, silver and badges are stored <strong>only on your device</strong>.
-  Nothing is uploaded to a server. Deleting the app deletes the data.</p>
+  <div class="kart">
+    <h3>Hangi bağlantılardan indirme yapabilirim?</h3>
+    <p>Podcast RSS beslemeleri, Jamendo gibi Creative Commons katalogları, Internet Archive
+    gibi kamuya açık arşivler ve hak sahibi olduğun dosyaları barındıran kendi sunucun.</p>
+    <p class="not" style="padding:8px 12px;border-radius:8px;background:rgba(251,191,36,.08)">
+    EZGİ; YouTube, Spotify, Apple Music ve SoundCloud gibi akış hizmetlerinden içerik
+    <b>indirmez ve dönüştürmez</b>. Bu servisler içeriklerinin indirilmesine izin vermez;
+    uygulama bu adresleri açıkça reddeder.</p>
+  </div>
 
-  <h3>Can I play offline?</h3>
-  <p>Yes. The game works fully offline and never requests network access.</p>
+  <div class="kart">
+    <h3>Müzik uygulama kapalıyken / ekran kilitliyken çalar mı?</h3>
+    <p>Evet. EZGİ arka planda çalar; kilit ekranı, Kontrol Merkezi, kulaklık ve Bluetooth
+    düğmeleriyle denetlenir. Çalmazsa: Ayarlar &gt; EZGİ &gt; “Arka Planda Uygulama Yenile” gerekmez;
+    ancak telefonun Sessiz/Odak modu çalmayı etkilemez, ses düğmelerini kontrol et.</p>
+  </div>
 
-  <h3>How do I get further?</h3>
-  <ul>
-    <li>Weave around the crowd instead of pushing through it to grab crystals.</li>
-    <li>Focus on one weapon first — it evolves at level 5.</li>
-    <li>Permanent upgrades are forever: "Health" and "Damage" extend every run.</li>
-    <li>Watch for the "GELİYOR" (incoming) warning before a boss spawns.</li>
-  </ul>
+  <div class="kart">
+    <h3>Dosyalarım nerede duruyor? Güvenli mi?</h3>
+    <p>Tüm ses dosyaları ve ayarların <b>yalnızca senin cihazında</b> saklanır. Hesap yok,
+    reklam yok, analitik yok; hiçbir veri sunucuya yüklenmez. Ağ trafiği yalnızca senin
+    yapıştırdığın adreslere gider.</p>
+  </div>
 
-  <p>Privacy details: see the <a href="./privacy.html">Privacy Policy</a>.</p>
+  <div class="kart">
+    <h3>Depolama alanı dolarsa?</h3>
+    <p>Ayarlar &gt; Depolama bölümünden indirilenleri topluca silebilirsin. İçe aktardığın
+    dosyalara dokunulmaz.</p>
+  </div>
 
-  <footer>SON GECE · © 2026 — Tüm hakları saklıdır / All rights reserved.</footer>
+  <h2>Bize ulaş</h2>
+  <div class="kart">
+    <p>Sorun bildirmek veya özellik istemek için GitHub üzerinde kayıt aç:
+    <a href="https://github.com/furkan708/neon-arena/issues">github.com/furkan708/neon-arena/issues</a></p>
+    <p>Bildirimine şu bilgileri eklersen çok daha hızlı çözeriz: iOS sürümü, cihaz modeli,
+    uygulamanın sürümü (Ayarlar &gt; Hakkında) ve sorunun adımları.</p>
+  </div>
+
+  <h2>Support (English)</h2>
+  <div class="kart">
+    <p>EZGİ is an offline, ad-free, account-free local music player for iOS. Add your own
+    audio files from the Files app or your computer, or download from sources that
+    explicitly permit distribution (podcast RSS feeds, Creative Commons catalogs such as
+    Jamendo, public archives such as the Internet Archive, or your own server).</p>
+    <p>EZGİ does <b>not</b> download or convert media from streaming services such as
+    YouTube, Spotify, Apple Music or SoundCloud; those addresses are rejected by design.</p>
+    <p>All files and settings stay on your device. There is no account, no advertising,
+    no analytics and no data collection. For bug reports and feature requests please open
+    an issue at <a href="https://github.com/furkan708/neon-arena/issues">github.com/furkan708/neon-arena/issues</a>.</p>
+  </div>
+
+  <footer>EZGİ · yerel müzik çalar · Bu sayfa uygulamanın resmî destek sayfasıdır.</footer>
 </div>
 </body>
 </html>

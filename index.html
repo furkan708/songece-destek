@@ -3,128 +3,55 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SON GECE — Destek / Support</title>
+<title>EZGİ — yerel müzik çalar</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: linear-gradient(180deg, #171043 0%, #3d1f72 55%, #7a3478 100%);
-    color: #e8ecf4; line-height: 1.65; min-height: 100vh;
-  }
-  .kap { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
-  header { text-align: center; margin-bottom: 40px; }
-  h1 {
-    font-size: 40px; letter-spacing: 1px; margin: 0 0 6px;
-    color: #ffdf80; text-shadow: 0 3px 0 rgba(10,6,26,.65), 0 0 26px rgba(255,223,128,.25);
-  }
-  .alt { color: #c9d2ea; font-size: 17px; margin: 0; }
-  h2 { color: #7ef0ff; font-size: 21px; margin: 34px 0 10px; }
-  h3 { color: #ffdf80; font-size: 17px; margin: 22px 0 6px; }
-  p, li { color: #dfe5f2; font-size: 16px; }
-  .kart {
-    background: rgba(16, 20, 40, .72); border: 1px solid rgba(160, 180, 255, .18);
-    border-radius: 18px; padding: 20px 22px; margin: 18px 0;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .28);
-  }
-  a { color: #7ef0ff; text-decoration: none; border-bottom: 1px solid rgba(126, 240, 255, .35); }
-  a:hover { border-bottom-color: #7ef0ff; }
-  ul { padding-left: 20px; }
-  code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 6px; font-size: 14px; }
-  .dil { text-align: center; margin-bottom: 26px; font-size: 14px; letter-spacing: .5px; color: #aab4d0; }
-  footer { text-align: center; color: #98a2bd; font-size: 14px; margin-top: 46px; }
-  hr { border: none; border-top: 1px solid rgba(160,180,255,.16); margin: 46px 0; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:radial-gradient(900px 480px at 18% -8%, #241a4d 0%, transparent 60%),
+                    radial-gradient(760px 420px at 88% 6%, #0b3a44 0%, transparent 55%), #0b0d12;
+         color:#eef1f7; line-height:1.65; min-height:100vh; }
+  .kap { max-width:820px; margin:0 auto; padding:64px 22px 90px; text-align:center; }
+  .logo { width:96px; height:96px; border-radius:26px; margin:0 auto 18px;
+          background:linear-gradient(135deg,#7c5cff,#22d3ee); display:grid; place-items:center;
+          box-shadow:0 18px 50px rgba(124,92,255,.4); font-size:44px; }
+  h1 { font-size:44px; margin:0 0 6px; letter-spacing:-1px; }
+  .slogan { color:#9aa4b9; font-size:17px; margin-bottom:30px; }
+  .ozet { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom:38px; }
+  .p { font-size:13px; font-weight:650; padding:7px 13px; border-radius:999px;
+       background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); color:#c3cbdc; }
+  .kartlar { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; text-align:left; margin-bottom:38px; }
+  .kart { background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.09); border-radius:18px; padding:18px; }
+  .kart b { display:block; margin-bottom:6px; color:#fff; font-size:15px; }
+  .kart p { margin:0; color:#a6b0c2; font-size:13.5px; }
+  .linkler a { display:inline-block; margin:0 10px; color:#7fd8ee; font-size:14.5px; font-weight:600; text-decoration:none; }
+  .linkler a:hover { text-decoration:underline; }
+  footer { margin-top:46px; color:#667085; font-size:12.5px; }
 </style>
 </head>
 <body>
 <div class="kap">
+  <div class="logo">🎵</div>
+  <h1>EZGİ</h1>
+  <div class="slogan">Kendi müziğin. Cihazında. Çevrimdışı.</div>
 
-  <header>
-    <h1>SON GECE</h1>
-    <p class="alt">Destek &amp; Yardım</p>
-  </header>
-
-  <div class="kart">
-    <h3>İletişim</h3>
-    <p>Her türlü soru, hata bildirimi ve öneri için bize yaz:</p>
-    <p><strong>E-posta:</strong> <a href="mailto:destek@songece.app">destek@songece.app</a></p>
-    <p style="color:#aab4d0;font-size:14px;margin-bottom:0">
-      Genellikle 1–2 iş günü içinde yanıt veriyoruz. Hata bildirirken telefon modelini
-      ve oyun sürümünü (menünün en altında yazar, örn. <code>v1.0.0</code>) eklersen
-      çok daha hızlı çözebiliriz.
-    </p>
+  <div class="ozet">
+    <span class="p">Hesap yok</span><span class="p">Reklam yok</span><span class="p">Veri toplama yok</span>
+    <span class="p">Arka planda çalar</span><span class="p">Kilit ekranı denetimi</span>
   </div>
 
-  <h2>Sık Sorulan Sorular</h2>
-
-  <h3>Kayıtlarım nerede tutuluyor?</h3>
-  <p>Rekorlar, gümüş ve rozetler yalnızca <strong>kendi cihazında</strong> saklanır.
-  Sunucuya hiçbir şey gönderilmez. Uygulamayı silersen kayıtlar da silinir.</p>
-
-  <h3>Oyunu çevrimdışı oynayabilir miyim?</h3>
-  <p>Evet. Oyun tamamen çevrimdışı çalışır, internet izni istemez.</p>
-
-  <h3>İlerlemem sıfırlandı, geri gelir mi?</h3>
-  <p>Cihaz değiştirdiysen veya uygulamayı silip yeniden yüklediysen eski kayıt geri
-  getirilemez (veriler sunucuda tutulmuyor). Yeni sürümlerde aniden sıfırlama olduysa
-  lütfen bize yaz — bu bir hata olabilir.</p>
-
-  <h3>Nasıl daha uzağa giderim?</h3>
-  <ul>
-    <li>Kristalleri toplamak için kalabalığın içinden geçmek yerine çevresinden dolaş.</li>
-    <li>İlk yükseltmelerde tek bir silaha odaklan; seviye 5'e ulaşınca evrimleşir.</li>
-    <li>Kalıcı güçler ölümsüzdür: dükkândan "Can" ve "Hasar" almak turu uzatır.</li>
-    <li>Boss gelmeden önce ekranın üstünde "GELİYOR" uyarısı çıkar; alanı açmayı dene.</li>
-  </ul>
-
-  <h3>Beyaz tema nasıl açılır?</h3>
-  <p>Menü → <strong>AYAR</strong> → <strong>Koyu Tema</strong> anahtarını kapat.</p>
-
-  <h3>Oyun çok zor/gürültülü/büyük mü?</h3>
-  <p>AYAR ekranından ses seviyesini, titreşimi, oto seçimi ve temayı değiştirebilirsin.</p>
-
-  <h2>Gizlilik</h2>
-  <p>Hangi verilerin toplandığını (kısaca: hiçbiri) görmek için
-  <a href="./privacy.html">Gizlilik Politikası</a> sayfasına bakabilirsin.</p>
-
-  <hr>
-
-  <div class="dil">— English —</div>
-
-  <header>
-    <h2 style="margin-top:0">SON GECE — Support</h2>
-  </header>
-
-  <div class="kart">
-    <h3>Contact</h3>
-    <p>For questions, bug reports and suggestions:</p>
-    <p><strong>Email:</strong> <a href="mailto:destek@songece.app">destek@songece.app</a></p>
-    <p style="color:#aab4d0;font-size:14px;margin-bottom:0">
-      We usually reply within 1–2 business days. Including your device model and the
-      game version (shown at the bottom of the main menu, e.g. <code>v1.0.0</code>)
-      helps us fix issues faster.
-    </p>
+  <div class="kartlar">
+    <div class="kart"><b>Yerel kütüphane</b><p>MP3, M4A, FLAC, WAV, OGG, Opus, AIFF. Etiketler otomatik okunur; Dosyalar/Finder ile bırakman yeterli.</p></div>
+    <div class="kart"><b>Yasal indirme</b><p>Podcast RSS, Creative Commons katalogları, kamuya açık arşivler ve kendi sunucun. Her öğede kaynak ve lisans künyesi.</p></div>
+    <div class="kart"><b>Şık çalar</b><p>Koyu/beyaz tema, beş vurgu rengi, uyku zamanlayıcı, çalma hızı, karıştır ve tekrarla.</p></div>
   </div>
 
-  <h3>Where is my progress stored?</h3>
-  <p>High scores, silver and badges are stored <strong>only on your device</strong>.
-  Nothing is uploaded to a server. Deleting the app deletes the data.</p>
+  <div class="linkler">
+    <a href="support.html">Destek / Support</a>
+    <a href="privacy.html">Gizlilik / Privacy</a>
+  </div>
 
-  <h3>Can I play offline?</h3>
-  <p>Yes. The game works fully offline and never requests network access.</p>
-
-  <h3>How do I get further?</h3>
-  <ul>
-    <li>Weave around the crowd instead of pushing through it to grab crystals.</li>
-    <li>Focus on one weapon first — it evolves at level 5.</li>
-    <li>Permanent upgrades are forever: "Health" and "Damage" extend every run.</li>
-    <li>Watch for the "GELİYOR" (incoming) warning before a boss spawns.</li>
-  </ul>
-
-  <p>Privacy details: see the <a href="./privacy.html">Privacy Policy</a>.</p>
-
-  <footer>SON GECE · © 2026 — Tüm hakları saklıdır / All rights reserved.</footer>
+  <footer>EZGİ · YouTube, Spotify, Apple Music gibi akış hizmetlerinden içerik indirmez.</footer>
 </div>
 </body>
 </html>
